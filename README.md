@@ -2,7 +2,7 @@
 
 Задание 1.
 
-Создание файла main
+Создание файла main.c
 
 ![image](https://github.com/user-attachments/assets/6cc14521-c97f-414d-b93f-040af82e5e7d)
 
