@@ -2,19 +2,32 @@
 
 Задание 1.
 
+Создание файла main
+
 ![image](https://github.com/user-attachments/assets/6cc14521-c97f-414d-b93f-040af82e5e7d)
+
+Произведем переполнение буфера
 
 ![image](https://github.com/user-attachments/assets/ac52b023-f821-4c91-bfd9-9e2fe3982b5b)
 
+Дизассемблируем функцию read_string
+
+![image](https://github.com/user-attachments/assets/87735c9f-8667-45d6-91a2-c7ee1299e6ad)
+
+Дезассемблируем main
+
 ![image](https://github.com/user-attachments/assets/03466106-f366-4219-8dfd-4c8dd7b7f15a)
+
+Создаем файл damdinov для переполнения буфера
 
 ![image](https://github.com/user-attachments/assets/6598d27d-daa8-4638-865e-21ad13ffbb38)
 
+После запуска программы байтами DCBA перезаписан адрес возврата,
+вместо адреса возврата появились следующие значения 44 43 42 41. Это коды
+букв D C B A.
+
 ![image](https://github.com/user-attachments/assets/4a3c5521-c078-4773-a73c-8ed4020d6445)
 
-![Uploading image.png…]()
-
-![Uploading image.png…]()
 
 Задание 2.
 Этот код представляет собой пример программы на языке C, который использует несколько уязвимостей и слабых мест. Рассмотрим его компоненты:
